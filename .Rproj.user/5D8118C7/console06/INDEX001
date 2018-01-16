@@ -1,1 +1,1 @@
-[]
+[{"allow_restart":false,"alt_buffer":false,"autoclose":1,"buffered_output":"On branch master\nYour branch is up-to-date with 'origin/master'.\nChanges not staged for commit:\n\tmodified:   .Rproj.user/5D8118C7/console06/INDEX001\n\nno changes added to commit\n","caption":"Git Commit","channel_id":"","channel_mode":0,"child_procs":false,"cols":80,"cwd":"","exit_code":1,"handle":"35AD66E5","interaction_mode":0,"max_output_lines":500,"restarted":false,"rows":25,"shell_type":0,"show_on_output":false,"terminal_sequence":0,"title":"","track_env":false,"zombie":false}]
