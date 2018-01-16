@@ -22,6 +22,8 @@ options(scipen = 999) #- para quitar la notacion científica
 ```{r cargar_pkgs, echo = FALSE}
 library("personal.pjp")
 library("tidyverse")
+library(knitr)
+library(kableExtra)
 ```
 
 
@@ -46,6 +48,17 @@ un chunk de codigo con tabla:
 library(tidyverse)
 iris[1:4,] %>% knitr::kable()
 ```
+
+```{r}
+dt <- iris[1:4,]
+dt %>%
+  kable("html") %>%
+  kable_styling()
+```
+
+
+
+
 
 Ahora un chunk inside. Las dimensiones de iris son: `r dim(iris)`
 
