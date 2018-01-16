@@ -67,10 +67,10 @@ iris[1:4,] %&gt;% knitr::kable()</code></pre>
 </tbody>
 </table>
 <pre class="r"><code>dt &lt;- iris[1:4,]
-dt %&gt;%
-  kable(&quot;html&quot;) %&gt;%
-  kable_styling()</code></pre>
-<table class="table" style="margin-left: auto; margin-right: auto;">
+
+kable(dt, &quot;html&quot;) %&gt;%
+  kable_styling(bootstrap_options = c(&quot;striped&quot;, &quot;hover&quot;))</code></pre>
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:right;">

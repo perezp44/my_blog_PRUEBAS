@@ -51,9 +51,9 @@ iris[1:4,] %>% knitr::kable()
 
 ```{r}
 dt <- iris[1:4,]
-dt %>%
-  kable("html") %>%
-  kable_styling()
+
+kable(dt, "html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
 ```
 
 
