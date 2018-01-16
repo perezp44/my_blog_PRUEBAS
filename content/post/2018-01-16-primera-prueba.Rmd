@@ -1,0 +1,38 @@
+---
+title: Primera prueba
+author: Pedro
+date: '2018-01-16'
+slug: primera-prueba
+categories:
+  - prueba
+tags:
+  - probatura 1
+---
+
+Pues quiero probar como se ve el blog en Netlify
+
+Para eso:
+
+# Un titulo
+
+Algo en **negrita**, una formula $y{1}$ y algo formateado `algo`
+
+## segundo nivel
+
+una quote:
+
+> Cada vez que acelero mas calenttito me pongo ---- Nirvana
+
+un chunk de codigo con tabla:
+
+```{r}
+library(tidyverse)
+iris[1:4,] %>% knitr::kable()
+```
+
+Ahora un chunk inside `r dim(iris)`
+
+```{r}
+plot(iris)
+```
+

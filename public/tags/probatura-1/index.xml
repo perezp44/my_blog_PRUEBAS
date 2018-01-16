@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Probatura 1 on PJP blog PRUEBA</title>
+    <link>/tags/probatura-1/</link>
+    <description>Recent content in Probatura 1 on PJP blog PRUEBA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/probatura-1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Primera prueba</title>
+      <link>/post/primera-prueba/</link>
+      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/primera-prueba/</guid>
+      <description>Pues quiero probar como se ve el blog en Netlify
+Para eso:
+Un tituloAlgo en negrita, una formula \(y{1}\) y algo formateado algo
+segundo niveluna quote:
+Cada vez que acelero mas calenttito me pongo —- Nirvana
+un chunk de codigo con tabla:
+library(tidyverse)## Warning: package &amp;#39;tidyverse&amp;#39; was built under R version 3.4.3## -- Attaching packages --------------------------------------------------------------------------------- tidyverse 1.2.1 --## v ggplot2 2.2.1.9000 v purrr 0.</description>
+    </item>
+    
+  </channel>
+</rss>
