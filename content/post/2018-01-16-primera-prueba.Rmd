@@ -45,11 +45,13 @@ una quote:
 un chunk de codigo con tabla:
 
 ```{r}
+library(printr)
 library(tidyverse)
 iris[1:4,] %>% knitr::kable()
 ```
 
 ```{r}
+
 dt <- iris[1:4,]
 
 kable(dt, "html") %>%

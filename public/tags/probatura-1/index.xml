@@ -24,7 +24,7 @@ Un tituloAlgo en negrita, una formula \(y_{1}\) y algo formateado algo
 segundo niveluna quote:
 Cada vez que acelero mas calenttito me pongo —- Nirvana
 un chunk de codigo con tabla:
-library(tidyverse)iris[1:4,] %&amp;gt;% knitr::kable()Sepal.LengthSepal.WidthPetal.LengthPetal.WidthSpecies5.13.51.40.2setosa4.93.01.40.2setosa4.</description>
+library(printr)library(tidyverse)iris[1:4,] %&amp;gt;% knitr::kable()Sepal.LengthSepal.WidthPetal.LengthPetal.WidthSpecies5.13.51.40.2setosa4.93.01.40.</description>
     </item>
     
   </channel>
