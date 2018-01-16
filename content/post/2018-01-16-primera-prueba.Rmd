@@ -9,6 +9,23 @@ tags:
   - probatura 1
 ---
 
+
+```{r chunk_setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, cache = FALSE, cache.path = "./caches/", eval = TRUE )
+```
+
+```{r options_setup, echo = FALSE}
+options(scipen = 999) #- para quitar la notacion científica
+```
+ 
+
+```{r cargar_pkgs, echo = FALSE}
+library("personal.pjp")
+library("tidyverse")
+```
+
+
+
 Pues quiero probar como se ve el blog en Netlify
 
 Para eso:
