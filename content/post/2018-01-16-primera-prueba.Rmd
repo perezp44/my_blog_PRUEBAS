@@ -15,7 +15,7 @@ Para eso:
 
 # Un titulo
 
-Algo en **negrita**, una formula $y{1}$ y algo formateado `algo`
+Algo en **negrita**, una formula $y_{1}$ y algo formateado `algo`
 
 ## segundo nivel
 
@@ -30,9 +30,18 @@ library(tidyverse)
 iris[1:4,] %>% knitr::kable()
 ```
 
-Ahora un chunk inside `r dim(iris)`
+Ahora un chunk inside. Las dimensiones de iris son: `r dim(iris)`
 
 ```{r}
 plot(iris)
+```
+
+
+y un chunk de solo mostrar:
+
+
+```r
+esto estara dentro de un chunk
+
 ```
 
