@@ -28,17 +28,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
    #   highlightjsCDN = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"
      # highlightjsLang = ["r", "yaml", "c", "bash"]
      # highlightjsTheme = "github"
+  #customCSS = ["css/my-style.css"]
 
+  # Custom JS. Put here your custom JS files. They are loaded after the theme JS;
+  # they have to be referred from static root. Example
+  #customJS = ["js/myjs.js"
 
-  highlightjsVersion = "9.12.0"
-  #highlightjsCDN = "//cdn.bootcss.com"
-  highlightjsCDN = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"
-  highlightjsLang = ["r", "yaml"]
-  highlightjsTheme = "github"
-  highlightjs = "github"
+  #highlightjsVersion = "9.12.0"
+  ##highlightjsCDN = "//cdn.bootcss.com"
+  #highlightjsCDN = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"
+  #highlightjsLang = ["r", "yaml"]
+  #highlightjsTheme = "github"
+  #highlightjs = "github"
   #MathJaxCDN = "//cdn.bootcss.com"
-  MathJaxCDN = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/config/Accessible-full.js"
-  MathJaxVersion = "2.7.1"
+  #MathJaxCDN = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/config/Accessible-full.js"
+  #MathJaxVersion = "2.7.1"
 
 
 
